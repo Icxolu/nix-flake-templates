@@ -11,6 +11,10 @@
         path = ./docker-dev-shell;
         description = "docker container with dev shell for rust";
       };
+      docker-php-shell = {
+        path = ./php;
+        description = "php dev shell";
+      };
     };
   };
 }
